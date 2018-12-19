@@ -10,6 +10,10 @@ import { RegisterComponent } from './register/register.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { OglasFormaComponent } from './oglas-forma/oglas-forma.component';
+import { FooterComponentComponent } from './footer-component/footer-component.component';
+import { HowItWorksComponent } from './how-it-works/how-it-works.component';
+import { AddAnnounceComponent } from './add-announce/add-announce.component';
+import { DonateNowComponent } from './donate-now/donate-now.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +21,11 @@ import { OglasFormaComponent } from './oglas-forma/oglas-forma.component';
     SmallOglasComponent,
     RegisterComponent,
     LoginComponent,
-    OglasFormaComponent
+    OglasFormaComponent,
+    FooterComponentComponent,
+    HowItWorksComponent,
+    AddAnnounceComponent,
+    DonateNowComponent
   ],
   imports: [
     BrowserModule,

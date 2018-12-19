@@ -2,12 +2,12 @@
 <mat-grid-list cols="4" rowHeight="600px" gutterSize="20px">
     <mat-grid-tile style="margin-right:10px"
         *ngFor="let hero of heroes">
-      
-   
-  
+
+
+
 <mat-card  class="example-card">
   <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div> 
+    <div mat-card-avatar class="example-header-image"></div>
     <mat-card-title>{{hero}}</mat-card-title>
     <mat-card-subtitle>Administrator</mat-card-subtitle> <!-- ime na avtorot-->
   </mat-card-header>
@@ -18,8 +18,7 @@
     </p>
 </mat-card-content>
 <mat-card-actions>
-
-   <button mat-raised-button>Doniraj</button>
+  <a routerLink="donate-now"><button mat-raised-button>Doniraj</button></a>
   <button mat-raised-button>SHARE</button>
 </mat-card-actions>
 </mat-card>
