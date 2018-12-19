@@ -1,0 +1,28 @@
+<!--<div class="dummy"> -->
+<mat-grid-list cols="4" rowHeight="600px" gutterSize="20px">
+    <mat-grid-tile style="margin-right:10px"
+        *ngFor="let hero of heroes">
+      
+   
+  
+<mat-card  class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div> 
+    <mat-card-title>{{hero}}</mat-card-title>
+    <mat-card-subtitle>Administrator</mat-card-subtitle> <!-- ime na avtorot-->
+  </mat-card-header>
+  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu"> <!-- slika od profilnata na avtorot-->
+  <mat-card-content>
+    <p>
+      Tekst od oglas
+    </p>
+</mat-card-content>
+<mat-card-actions>
+
+   <button mat-raised-button>Doniraj</button>
+  <button mat-raised-button>SHARE</button>
+</mat-card-actions>
+</mat-card>
+
+</mat-grid-tile>
+</mat-grid-list>

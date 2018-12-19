@@ -1,0 +1,42 @@
+<mat-card class="register-card">
+        <mat-card-title>Register</mat-card-title>
+        <mat-card-content>
+                <table class="example-full-width" cellspacing="0">
+                        <tr>
+                            <td>
+                                <mat-form-field class="example-full-width">
+                                    <input matInput placeholder="First name">
+                                </mat-form-field>
+                            </td>
+                            <td><mat-form-field class="example-full-width"><input matInput placeholder="Last name"></mat-form-field></td>
+                        </tr>
+                        <tr>
+                          <td>
+
+                            <mat-form-field class="example-full-width">
+                            <input matInput placeholder="Username" [(ngModel)]="username" name="username" required>
+                            </mat-form-field>
+                          </td>
+                        </tr>
+                        <tr>
+                                <td>
+      
+                                  <mat-form-field class="example-full-width">
+                                  <input matInput placeholder="E-mail" [(ngModel)]="username" name="username" required>
+                                  </mat-form-field>
+                                </td>
+                              </tr>
+                        <tr>
+                        <td><mat-form-field class="example-full-width">
+                          <input matInput placeholder="Password" [(ngModel)]="password"type="password" name="password" required>
+                        </mat-form-field></td>
+                       <td> <mat-form-field class="example-full-width">
+                                <input matInput placeholder="Repeat password" [(ngModel)]="password"type="password" name="password" required>
+                              </mat-form-field></td>
+                        </tr>
+                      </table>
+        </mat-card-content>
+        <mat-card-actions>
+             <button mat-raised-button (click)="register()" color="primary">Register</button>
+        </mat-card-actions>
+</mat-card>
