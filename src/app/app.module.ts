@@ -14,6 +14,7 @@ import { FooterComponentComponent } from './footer-component/footer-component.co
 import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { AddAnnounceComponent } from './add-announce/add-announce.component';
 import { DonateNowComponent } from './donate-now/donate-now.component';
+import { OglasGenericComponent } from './oglas-generic/oglas-generic.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { DonateNowComponent } from './donate-now/donate-now.component';
     FooterComponentComponent,
     HowItWorksComponent,
     AddAnnounceComponent,
-    DonateNowComponent
+    DonateNowComponent,
+    OglasGenericComponent
   ],
   imports: [
     BrowserModule,

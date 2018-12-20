@@ -1,3 +1,12 @@
 .login-card{
-    max-width: 400px;
+    min-width: 100px;
+    margin:auto;
+    width:50%;
+
+}
+.example-form{
+    margin:auto;
+}
+.background-login{
+    background-color:secondary;
 }

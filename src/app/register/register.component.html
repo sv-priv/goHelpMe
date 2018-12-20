@@ -1,4 +1,6 @@
-<mat-card class="register-card">
+<div class="background-register">
+<mat-card class="register-card mat-elevation-z6">
+
         <mat-card-title>Register</mat-card-title>
         <mat-card-content>
                 <table class="example-full-width" cellspacing="0">
@@ -20,7 +22,7 @@
                         </tr>
                         <tr>
                                 <td>
-      
+
                                   <mat-form-field class="example-full-width">
                                   <input matInput placeholder="E-mail" [(ngModel)]="username" name="username" required>
                                   </mat-form-field>
@@ -39,4 +41,6 @@
         <mat-card-actions>
              <button mat-raised-button (click)="register()" color="primary">Register</button>
         </mat-card-actions>
+
 </mat-card>
+</div>
