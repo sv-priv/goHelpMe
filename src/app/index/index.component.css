@@ -5,4 +5,15 @@
   .button_layout{
    margin:auto;
   }
-  
+
+.logo-img {
+  height:200px;
+  float:left;
+}
+.menu-button {
+  color:white;
+}
+
+.toolbar-header {
+  border-bottom: 1px solid #f5f5f5
+}

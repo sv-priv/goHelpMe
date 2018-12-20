@@ -15,6 +15,11 @@ import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { AddAnnounceComponent } from './add-announce/add-announce.component';
 import { DonateNowComponent } from './donate-now/donate-now.component';
 import { OglasGenericComponent } from './oglas-generic/oglas-generic.component';
+import { EdukativniComponent } from './edukativni/edukativni.component';
+import { MedicinskiComponent } from './medicinski/medicinski.component';
+import { ItniComponent } from './itni/itni.component';
+import { MemoriskiComponent } from './memoriski/memoriski.component';
+import { HeroHomeComponent } from './hero-home/hero-home.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +32,12 @@ import { OglasGenericComponent } from './oglas-generic/oglas-generic.component';
     HowItWorksComponent,
     AddAnnounceComponent,
     DonateNowComponent,
-    OglasGenericComponent
+    OglasGenericComponent,
+    EdukativniComponent,
+    MedicinskiComponent,
+    ItniComponent,
+    MemoriskiComponent,
+    HeroHomeComponent
   ],
   imports: [
     BrowserModule,

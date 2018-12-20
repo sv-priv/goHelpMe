@@ -1,0 +1,12 @@
+.example-header-image {
+    background-image: url('https://openclipart.org/image/2400px/svg_to_png/288357/anon-hacker-behind-pc.png');
+    background-size: cover;
+  }
+.example-card {
+  max-width: 400px;
+  flex:1 2 1 auto;
+}
+.dummy{
+  overflow-y: scroll;
+    max-height: 300px;
+}

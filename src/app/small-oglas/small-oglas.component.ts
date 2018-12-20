@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HeroHomeComponent } from '../hero-home/hero-home.component';
 
 @Component({
   selector: 'app-small-oglas',
@@ -6,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./small-oglas.component.css']
 })
 export class SmallOglasComponent implements OnInit {
-  heroes = ['Windstorm', 'Bombasto', 'Magneta', 'Tornado','Velko','Boko','Baba mi','Stefan'];
+  medicinski = ['Windstorm', 'Bombasto', 'Magneta'];
+  edukativni = ['Windstorm', 'Bombasto', 'Magneta'];
+  itni = ['Windstorm', 'Bombasto', 'Magneta'];
+  heroes = ['Windstorm', 'Bombasto', 'Magneta'];
   choices=['Surovina','Paricni sredstva'];
   myHero = this.heroes[0];
   constructor() { }
