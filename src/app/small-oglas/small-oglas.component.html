@@ -21,10 +21,10 @@
 <mat-card  class="example-card">
   <mat-card-header>
     <div mat-card-avatar class="example-header-image"></div>
-    <mat-card-title>{{campaign}}</mat-card-title>
+    <mat-card-title>{{campaign.text}}</mat-card-title>
     <mat-card-subtitle>СтефанВелкоски</mat-card-subtitle> <!-- ime na avtorot-->
   </mat-card-header>
-  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu"> <!-- slika od profilnata na avtorot-->
+  <img mat-card-image src={{campaign.img}} alt="Photo of a Shiba Inu"> <!-- slika od profilnata na avtorot-->
   <mat-card-content>
     <p>
       <a href="#"> Прочитајте повеќе..</a>
@@ -32,12 +32,8 @@
 </mat-card-content>
 <mat-card-actions>
   <!-- <a routerLink="donate-now"><button mat-raised-button>Донирај</button></a> -->
-  <button mat-raised-button [matMenuTriggerFor]="appMenu"   color="accent">Донирај Веднаш</button>
-  <mat-menu #appMenu="matMenu">
-    <button mat-menu-item color="accent" class="button_layout">Финансиски Средства</button>
-    <button mat-menu-item>Храна</button>
-    <button mat-menu-item>Облека</button>
-  </mat-menu>
+  <button mat-raised-button class="white-font"  color="accent">Донирај Веднаш</button>
+  
   <button mat-raised-button>Сподели</button>
 </mat-card-actions>
 </mat-card>
@@ -57,10 +53,10 @@
 <mat-card  class="example-card">
   <mat-card-header>
     <div mat-card-avatar class="example-header-image"></div>
-    <mat-card-title>{{campaign}}</mat-card-title>
+    <mat-card-title>{{campaign.text}}</mat-card-title>
     <mat-card-subtitle>Борјан Костов</mat-card-subtitle> <!-- ime na avtorot-->
   </mat-card-header>
-  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu"> <!-- slika od profilnata na avtorot-->
+  <img mat-card-image src={{campaign.img}} alt="Photo of a Shiba Inu"> <!-- slika od profilnata na avtorot-->
   <mat-card-content>
     <p>
       <a href="#"> Прочитајте повеќе..</a>
@@ -68,12 +64,8 @@
 </mat-card-content>
 <mat-card-actions>
   <!-- <a routerLink="donate-now"><button mat-raised-button>Донирај</button></a> -->
-  <button mat-raised-button [matMenuTriggerFor]="appMenu"   color="accent">Донирај Веднаш</button>
-  <mat-menu #appMenu="matMenu">
-    <button mat-menu-item color="accent" class="button_layout">Финансиски Средства</button>
-    <button mat-menu-item>Храна</button>
-    <button mat-menu-item>Облека</button>
-  </mat-menu>
+  <button mat-raised-button class="white-font"   color="accent">Донирај Веднаш</button>
+  
   <button mat-raised-button>Сподели</button>
 </mat-card-actions>
 </mat-card>
@@ -94,10 +86,10 @@
 <mat-card  class="example-card">
   <mat-card-header>
     <div mat-card-avatar class="example-header-image"></div>
-    <mat-card-title>{{campaign}}</mat-card-title>
+    <mat-card-title>{{campaign.text}}</mat-card-title>
     <mat-card-subtitle>Стефан Фидановски</mat-card-subtitle> <!-- ime na avtorot-->
   </mat-card-header>
-  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu"> <!-- slika od profilnata na avtorot-->
+  <img mat-card-image src={{campaign.img}} alt="Photo of a Shiba Inu"> <!-- slika od profilnata na avtorot-->
   <mat-card-content>
     <p>
       <a href="#"> Прочитајте повеќе..</a>
@@ -105,12 +97,8 @@
 </mat-card-content>
 <mat-card-actions>
   <!-- <a routerLink="donate-now"><button mat-raised-button>Донирај</button></a> -->
-  <button mat-raised-button [matMenuTriggerFor]="appMenu"   color="accent">Донирај Веднаш</button>
-  <mat-menu #appMenu="matMenu">
-    <button mat-menu-item color="accent" class="button_layout">Финансиски Средства</button>
-    <button mat-menu-item>Храна</button>
-    <button mat-menu-item>Облека</button>
-  </mat-menu>
+  <button mat-raised-button class="white-font"  color="accent">Донирај Веднаш</button>
+  
   <button mat-raised-button>Сподели</button>
 </mat-card-actions>
 </mat-card>
@@ -129,10 +117,10 @@
 <mat-card  class="example-card">
   <mat-card-header>
     <div mat-card-avatar class="example-header-image"></div>
-    <mat-card-title>{{campaign}}</mat-card-title>
+    <mat-card-title>{{campaign.text}}</mat-card-title>
     <mat-card-subtitle>Стефан Велкоски</mat-card-subtitle> <!-- ime na avtorot-->
   </mat-card-header>
-  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu"> <!-- slika od profilnata na avtorot-->
+  <img mat-card-image src={{campaign.img}} alt="Photo of a Shiba Inu"> <!-- slika od profilnata na avtorot-->
   <mat-card-content>
     <p>
 <a href="#"> Прочитајте повеќе..</a>
@@ -140,12 +128,8 @@
 </mat-card-content>
 <mat-card-actions>
   <!-- <a routerLink="donate-now"><button mat-raised-button>Донирај</button></a> -->
-  <button mat-raised-button [matMenuTriggerFor]="appMenu"   color="accent">Донирај Веднаш</button>
-  <mat-menu #appMenu="matMenu">
-    <button mat-menu-item color="accent" class="button_layout">Финансиски Средства</button>
-    <button mat-menu-item>Храна</button>
-    <button mat-menu-item>Облека</button>
-  </mat-menu>
+  <button mat-raised-button class="white-font"   color="accent">Донирај Веднаш</button>
+  
   <button mat-raised-button>Сподели</button>
 </mat-card-actions>
 </mat-card>

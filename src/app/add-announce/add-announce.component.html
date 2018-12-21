@@ -1,1 +1,50 @@
-<p>dodadi oglas forma..</p>
+<mat-card class="register-card mat-elevation-z6">
+
+    <mat-card-title>Нов оглас</mat-card-title>
+    <mat-card-content>
+            <table class="example-full-width" cellspacing="0">
+                    <tr>
+                        <td>
+                            <mat-form-field class="example-full-width">
+                                <input matInput placeholder="Наслов" required>
+                            </mat-form-field>
+                        </td>
+                    
+                    </tr>
+                    <tr>
+                      <td>
+
+                        <mat-form-field>
+                            <textarea matInput cdkTextareaAutosize cdkAutosizeMinRows="8"
+                             placeholder="Содржина" required></textarea>
+                          </mat-form-field>
+                      </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <mat-radio-group>
+                                    <mat-radio-button class="kope" value="1">Медицински</mat-radio-button> 
+                                    <mat-radio-button class="kope"value="2">Итен</mat-radio-button> 
+                                <mat-radio-button class="kope"value="3">Едукативен</mat-radio-button>
+                                <mat-radio-button class="kope" value="4">Меморијален</mat-radio-button>
+                                
+                              </mat-radio-group>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <mat-form-field class="example-full-width">
+                                        <input matInput placeholder="Телефонски број" required>
+                                    </mat-form-field>
+                        </td>
+                    </tr>
+                    
+                  </table>
+    </mat-card-content>
+    <mat-card-actions>
+         <button mat-raised-button (click)="register()" color="accent" class="white-font">Објави</button>
+    </mat-card-actions>
+
+</mat-card>
+

@@ -11,7 +11,9 @@
   overflow-y: scroll;
     max-height: 300px;
 }
-
+.white-font{
+  color:white;
+}
 .hero-component {
   height: 600px;
   display: block;

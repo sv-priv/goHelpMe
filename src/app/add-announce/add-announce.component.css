@@ -6,3 +6,20 @@
 .example-container > * {
   width: 100%;
 }
+.kope{
+  padding:15px;
+}
+.example-form{
+  margin:auto;
+}
+.register-card{
+  min-width: 100px;
+  margin:auto;
+  width:50%;
+  margin-top: 82px;
+
+
+}
+.white-font{
+  color:white;
+}

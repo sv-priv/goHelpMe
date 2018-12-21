@@ -1,0 +1,21 @@
+.positioning{
+    margin-left:100px;
+    margin-right:100px;
+}
+.register-card{
+    min-width: 100px;
+    margin:auto;
+    width:50%;
+    margin-top: 82px;
+
+
+}
+.example-form{
+    margin:auto;
+}
+.background-register{
+    background-color: secondary;
+}
+.background-card{
+    background-color:orange;
+}
