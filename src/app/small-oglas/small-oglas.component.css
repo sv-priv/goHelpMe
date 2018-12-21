@@ -56,8 +56,8 @@ text-decoration: underline;
 }
 
 .home-header h2 {
-  margin-top: 25px;
-  margin-bottom: 0;
+  margin-top: 43px;
+  margin-bottom:38;
   font-size: 22px;
   font-weight:700;
 }
@@ -66,4 +66,11 @@ text-decoration: underline;
   width:75%;
   margin-right:auto;
   margin-left:auto;
+}
+.mat-raised-button.mat-accent span {
+  color:white;
+}
+
+.text-color {
+  color: white;
 }

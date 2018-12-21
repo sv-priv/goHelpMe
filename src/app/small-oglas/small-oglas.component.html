@@ -3,7 +3,7 @@
  <h2>Добродојдовте на  <span>GoHelpMe</span></h2>
  <p>Вашето малку, на некому може да му значи многу. Бидете хумани и донирајте, за среќно утре за сите !</p>
  <p>
-<button mat-raised-button  color="primary" class="hero-button">Донирај веднаш!</button>
+<button mat-raised-button  color="primary" class="hero-button" >Донирај веднаш!</button>
  </p>
 
 
@@ -11,7 +11,7 @@
 
 <div>
 <mat-toolbar class="home-header">
-  <!-- <a routerLink="medicinski"><h2>Медицински Огласи за Донации</h2></a> -->
+  <a routerLink="medicinski"><button mat-button color="accent"></button></a>
 <h2>Медицински Огласи за Донации</h2>
 </mat-toolbar>
 <mat-grid-list cols="3" rowHeight="600px" gutterSize="20px" class="home-grid">
@@ -106,13 +106,13 @@
 </mat-grid-tile>
 </mat-grid-list>
 </div>
-<div>
-<mat-toolbar class="home-header">
-<h2>Меморијални огласи за донации</h2>
-</mat-toolbar>
-<mat-grid-list cols="3" rowHeight="600px" gutterSize="20px" class="home-grid">
-    <mat-grid-tile style="margin-right:10px"
-        *ngFor="let campaign of memorijalni">
+  <div>
+  <mat-toolbar class="home-header">
+  <h2>Меморијални огласи за донации</h2>
+  </mat-toolbar>
+  <mat-grid-list cols="3" rowHeight="600px" gutterSize="20px" class="home-grid">
+      <mat-grid-tile style="margin-right:10px"
+          *ngFor="let campaign of memorijalni">
 
 <mat-card  class="example-card">
   <mat-card-header>
@@ -134,6 +134,6 @@
 </mat-card-actions>
 </mat-card>
 
-</mat-grid-tile>
-</mat-grid-list>
-</div>
+  </mat-grid-tile>
+  </mat-grid-list>
+  </div>
