@@ -1,22 +1,22 @@
 <div class="background-register">
 <mat-card class="register-card mat-elevation-z6">
 
-        <mat-card-title>Register</mat-card-title>
+        <mat-card-title>Регистрирај се</mat-card-title>
         <mat-card-content>
                 <table class="example-full-width" cellspacing="0">
                         <tr>
                             <td>
                                 <mat-form-field class="example-full-width">
-                                    <input matInput placeholder="First name">
+                                    <input matInput placeholder="Име">
                                 </mat-form-field>
                             </td>
-                            <td><mat-form-field class="example-full-width"><input matInput placeholder="Last name"></mat-form-field></td>
+                            <td><mat-form-field class="example-full-width"><input matInput placeholder="Презиме"></mat-form-field></td>
                         </tr>
                         <tr>
                           <td>
 
                             <mat-form-field class="example-full-width">
-                            <input matInput placeholder="Username" [(ngModel)]="username" name="username" required>
+                            <input matInput placeholder="Корисничко Име" [(ngModel)]="username" name="username" required>
                             </mat-form-field>
                           </td>
                         </tr>
@@ -24,22 +24,22 @@
                                 <td>
 
                                   <mat-form-field class="example-full-width">
-                                  <input matInput placeholder="E-mail" [(ngModel)]="username" name="username" required>
+                                  <input matInput placeholder="E-маил" [(ngModel)]="username" name="username" required>
                                   </mat-form-field>
                                 </td>
                               </tr>
                         <tr>
                         <td><mat-form-field class="example-full-width">
-                          <input matInput placeholder="Password" [(ngModel)]="password"type="password" name="password" required>
+                          <input matInput placeholder="Лозинка" [(ngModel)]="password"type="password" name="password" required>
                         </mat-form-field></td>
                        <td> <mat-form-field class="example-full-width">
-                                <input matInput placeholder="Repeat password" [(ngModel)]="password"type="password" name="password" required>
+                                <input matInput placeholder="Повтори ја лозинката" [(ngModel)]="password"type="password" name="password" required>
                               </mat-form-field></td>
                         </tr>
                       </table>
         </mat-card-content>
         <mat-card-actions>
-             <button mat-raised-button (click)="register()" color="primary">Register</button>
+             <button mat-raised-button (click)="register()" color="accent" class="colorr">Регистрирај се</button>
         </mat-card-actions>
 
 </mat-card>
